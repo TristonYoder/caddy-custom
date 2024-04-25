@@ -1,4 +1,4 @@
-name: Create and publish the caddy digitalocean image
+name: Create and publish the dockerhub and github registry images
 
 on:
   push:
