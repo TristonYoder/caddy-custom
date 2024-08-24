@@ -1,7 +1,7 @@
 FROM docker.io/caddy:builder as builder
 
 RUN xcaddy build \
-    --with github.com/caddy-dns/cloudflare@latest \
+    --with github.com/caddy-dns/cloudflare@latest
 
 FROM docker.io/caddy:latest
 
